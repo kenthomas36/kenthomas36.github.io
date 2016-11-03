@@ -1,0 +1,53 @@
+html{
+background: #C5D4FF;
+}
+
+a:link {
+     color:blue;
+     text-decoration:none;
+}
+
+a:visited {
+  color:blue;
+}
+
+a:hover {
+  color:red;
+
+}
+
+ul{
+  margin:10;
+  padding:10;
+}
+
+#List{
+  float:left;   
+  border:5px solid black;
+}
+
+#biography{
+  margin: 10px;
+  padding: 10px;
+  }
+
+#education {
+  border: 10px;
+  padding: 35px;
+  margin: 35px;
+}
+
+#labyrinth{
+  float:left;
+  padding:10px;
+}
+
+#labyrinthtxt{
+  float:top;     
+  padding: 10px;
+}
+
+#hidelink{
+  color:black
+}
+
