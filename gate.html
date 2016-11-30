@@ -12,31 +12,27 @@ look in the box
 <img src="https://raw.githubusercontent.com/kenthomas36/kenthomas36.github.io/master/labyrinthentrance.jpg">
 </div>
 <div id="labyrinthtxt">
-<p> You have tread upon a path that will never be untrodden again. <br>
-     A voice beckons you from the dark. <br>
-     <i>"Weary Traveller, to enter this labyrinth you must enable yourself to see beyond the material plane. <br>
-     You know of what I speak, or you would never have found this place. You know of the cracks that exist in this world." <br>
-     </i>
-     From the dark, you hear the hack of a sharp blade piercing a soft surface. As the voice returns, you hear it chewing while talking. <br>
-     <i> "The password is written on the <b>brown </b> earth" </i>
+<p> OPEN PACKAGE I <br>
+     To enter the labyrinth, you must be in possession of a certain thing. <br>
+     If you can translate numbers into letters, the burden you must carry will be revealed <br>
       </p>                        
       
 
 <SCRIPT>
 function passWord() {
 var testV = 1;
-var pass1 = prompt('Weary Traveller, what is the password',' ');
+var pass1 = prompt('Weary Traveller, what are you carrying?',' ');
 while (testV < 3) {
 if (!pass1) 
 history.go(-1);
-if (pass1.toLowerCase() == "rabbitstew") {
-alert('Well done, but from now on, you are alone...');
+if (pass1.toLowerCase() == "disease") {
+alert('You may enter');
 window.open('labyrinth2.1.html');
 break;
 } 
 testV+=1;
 var pass1 = 
-prompt('Oh do make an effort, traveller!','Password');
+prompt('No','Password');
 }
 if (pass1.toLowerCase()!="password" & testV ==3) 
 history.go(-1);
@@ -45,7 +41,7 @@ return " ";
 </SCRIPT>
 <CENTER>
 <FORM>
-<input type="button" value="Say Password" onClick="passWord()">
+<input type="button" value="Translate 1-16-6-2-3-19-13" onClick="passWord()">
 </FORM>
 </CENTER>
 
